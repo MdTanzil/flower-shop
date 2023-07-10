@@ -2,6 +2,17 @@
   margin: 0px;
   padding: 0px;
 }
+/* common class */
+
+section{
+    
+    margin-top: 120px;
+}
+
+
+
+
+/* banner class */
 .banner-container {
   display: flex;
   justify-content: center;
@@ -34,4 +45,65 @@
   border: none;
   border-radius: 4px;
   padding: 18px 40px;
+}
+.fa-title{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.fa-desc{
+
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+}
+.fa-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    
+
+}
+    
+
+
+.card{
+    width: 310px;
+height: 430px;
+background-color: rgba(167, 33, 98, 0.15);
+background-image: url("images/pngwing 6.png") ;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* Hot deal  */
+.deal-main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+background-color: rgba(229, 84, 115, 0.05);
+
+}
+.deal-main-container h1 {
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+.deal-main-container p{
+    width: 550px;
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.deal-right img{
 }
