@@ -189,3 +189,26 @@ font-weight: 400;
 padding-bottom: 120px;
 margin-top: 10px;
 }
+
+/* support-css */
+.support-main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 80px 180px;
+
+    border-radius: 8px;
+background-color: rgba(39, 39, 39, 0.05);
+
+}
+.sp-item{
+    padding: 15px;
+
+}
+.sp-item h6{
+    color: rgba(39, 39, 39, 0.80);
+font-size: 16px;
+font-weight: 600;
+line-height: 35px;
+}
