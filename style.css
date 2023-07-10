@@ -31,7 +31,7 @@ section {
   gap: 65px;
   align-items: center;
   height: 100vh;
-  background-color: rgba(229, 84, 115, 0.1);
+  background-color: rgba(229, 82, 114, 0.1);
 }
 .banner-img {
   height: 600px;
@@ -238,7 +238,55 @@ background-repeat: no-repeat; */
   color: black;
   font-size: 18px;
 }
+.nav-menu ul li a:hover {
+    
+    text-decoration: underline;
+    
+}
+
 .nav-title {
   font-size: 38px;
   font-weight: 700;
+}
+.form-container{
+    text-align: center;
+}
+.form-class label input{
+    width: 700px;
+  height: 32px;
+  margin-bottom: 10px;
+  background: #fff;
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  margin-right: 5px;
+  border: 1px solid powderblue;
+  outline: none;
+
+
+}
+.form-class label textarea{
+    width: 670px;
+  border: 1px solid powderblue;
+    outline: none;
+  height: 250px;
+  padding: 18px;
+  border-radius: 15px;
+
+}
+.form-section{
+  background-color: rgba(109, 101, 103, 0.1);
+  border-radius: 10px 250px 10px ;
+  margin: 80px;
+}
+.form-section label{
+    font-size: 18px;
+    font-weight: 400;
+}
+.btn-form{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#f-title{
+    padding: 40px;
 }
