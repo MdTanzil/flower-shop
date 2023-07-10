@@ -198,7 +198,8 @@ background-repeat: no-repeat; */
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  margin: 120px 180px;
+  margin: 150px 180px;
+  margin-top: 250px;
 
   border-radius: 8px;
   background-color: rgba(39, 39, 39, 0.05);
