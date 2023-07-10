@@ -9,7 +9,20 @@ section{
     margin-top: 120px;
 }
 
+.title{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.title-desc{
 
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+}
 
 
 /* banner class */
@@ -46,20 +59,8 @@ section{
   border-radius: 4px;
   padding: 18px 40px;
 }
-.fa-title{
-    color: #272727;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
-}
-.fa-desc{
 
-color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-line-height: 25px;
-}
+
 .fa-cards{
     display: flex;
     align-items: center;
@@ -92,18 +93,86 @@ background-color: rgba(229, 84, 115, 0.05);
 }
 .deal-main-container h1 {
     color: #272727;
-font-size: 40px;
+font-size: 35px;
 font-weight: 800;
 }
 .deal-main-container p{
     width: 550px;
     color: rgba(39, 39, 39, 0.60);
 text-align: center;
-font-size: 18px;
+font-size: 16px;
 font-weight: 400;
-line-height: 20px;
+line-height: 18px;
 margin-top: 10px;
 margin-bottom: 10px;
 }
-.deal-right img{
+
+#pink{
+    color: #E55473;
+}
+.so-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.so-img img{
+    width: 280px;
+height: 300px;
+}
+
+/* banner-2  */
+.banner-2{
+    background-image: url('images/Rectangle\ 9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+ height: 300px;
+margin-left: 80px;
+margin-right: 80px;
+
+}
+#d5{
+   padding-top: 70px;
+    
+}
+.search-input{
+    width: 700px;
+height: 32px;
+margin-top: 30px ;
+background: #FFF;
+border: none;
+padding: 10px;
+margin-bottom: 110px;
+border-radius: 5px;
+margin-right: 5px;
+
+}
+
+/* footer  */
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#ftitle{
+    padding-top: 120px;
+    padding-bottom: 10px;
+    color: white;
+    
+}
+.fdesc{
+    height: 50px;
+    color: rgba(255, 255, 255, 0.90);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+}
+#fcopy{
+    color: rgba(255, 255, 255, 0.40);
+font-size: 14px;
+font-weight: 400;
+padding-bottom: 120px;
+margin-top: 10px;
 }
